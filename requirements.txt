@@ -1,0 +1,38 @@
+# Core dependencies for Chiku Voice Assistant MVP
+
+# Web Framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# ASR (Speech Recognition)
+openai-whisper==20231117
+
+# LLM Backend
+ollama==0.0.54
+
+# Text-to-Speech
+TTS==0.21.2
+pyttsx3==2.99
+
+# Audio I/O
+sounddevice==0.4.6
+numpy==1.24.3
+scipy==1.11.4
+
+# Voice Activity Detection
+silero-vad==5.0
+
+# Speaker Verification (Phase 2)
+resemblyzer==0.1.1.dev0
+
+# Data & Config
+pydantic==2.5.0
+python-dotenv==1.0.0
+
+# Async & WebSocket
+websockets==12.0
+aiofiles==23.2.1
+
+# Utilities
+python-json-logger==2.0.7

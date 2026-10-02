@@ -1,0 +1,88 @@
+# .gitignore for Chiku Assistant
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv
+venv.bak
+env.bak
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.pydevproject
+.settings/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+logs/
+
+# Data directories
+conversations/
+speaker_profiles/
+*.json
+*.wav
+*.mp3
+*.wav
+test_audio.*
+
+# Models (large files)
+models/
+.cache/
+~/.cache/
+.models/
+
+# Ollama
+ollama.db
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+.tmp*
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Node (if using web frontend)
+node_modules/
+npm-debug.log
+
+# Keep example files
+!.env.example
+!conversations/.gitkeep
+!speaker_profiles/.gitkeep
